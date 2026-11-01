@@ -1,6 +1,6 @@
-## ⚡ How to Execute the Projects
+##  How to Execute the Projects
 
-### 🛠️ Prerequisites & Setup
+###  Prerequisites & Setup
 
 Ensure Python 3.10+ is installed, then install the required dependencies:
 
@@ -12,7 +12,7 @@ pip install selenium pytest pytest-html flask
 
 ---
 
-### 🚀 Execution Method 1: One-Click Automated Runner (Recommended)
+###  Execution Method 1: One-Click Automated Runner (Recommended)
 
 The standalone runner automatically boots the target web application (`app.py`) in the background, checks server health on port 5000, runs the entire Selenium suite, generates an interactive HTML report, and terminates the background server cleanly.
 
@@ -24,7 +24,7 @@ python run_selenium_tests.py
 
 ---
 
-### 🖥️ Execution Method 2: Live Browser Mode (Headed / Watch Live on Screen)
+###  Execution Method 2: Live Browser Mode (Headed / Watch Live on Screen)
 
 By default, tests run in headless mode. To watch Microsoft Edge or Chrome open on your desktop and automatically execute every test case in real time:
 
@@ -36,7 +36,7 @@ python run_selenium_tests.py --headless false
 
 ---
 
-### 🧪 Execution Method 3: Direct PyTest CLI Commands (All Variations)
+###  Execution Method 3: Direct PyTest CLI Commands (All Variations)
 
 You can run PyTest directly inside the `automation_selenium/` directory.
 
@@ -127,7 +127,7 @@ python -m pytest --base-url http://127.0.0.1:5000 -v
 
 ---
 
-### 📊 Execution Method 4: View Interactive HTML Test Report
+###  Execution Method 4: View Interactive HTML Test Report
 
 After running the test suite, open the generated HTML report in your default browser.
 
@@ -158,7 +158,7 @@ xdg-open reports/e2e_test_report.html
 
 ---
 
-### 🌐 Execution Method 5: Run the Live Web Portal for Manual Testing (Task 1)
+###  Execution Method 5: Run the Live Web Portal for Manual Testing (Task 1)
 
 To explore and manually verify the web portal features in your browser:
 
@@ -177,7 +177,7 @@ python app.py
 
 ---
 
-### ⚡ Execution Method 6: Fast In-Process Test Runner (Task 1 Backend Check)
+###  Execution Method 6: Fast In-Process Test Runner (Task 1 Backend Check)
 
 To execute fast in-memory functional tests without launching a browser:
 
@@ -187,7 +187,7 @@ python run_test_suite.py
 
 ---
 
-### 📂 Project Execution Summary
+###  Project Execution Summary
 
 | Method   | Description               | Command                                         |
 | -------- | ------------------------- | ----------------------------------------------- |
@@ -200,7 +200,7 @@ python run_test_suite.py
 
 ---
 
-### 📤 How to Push README Updates to GitHub
+###  How to Push README Updates to GitHub
 
 After updating the README.md file, execute the following commands from your main project directory:
 
@@ -214,4 +214,4 @@ git commit -m "Update README with complete Selenium execution guide"
 git push origin main
 ```
 
-Your updated README will now be available in your GitHub repository.
+
