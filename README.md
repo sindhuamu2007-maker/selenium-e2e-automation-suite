@@ -205,7 +205,7 @@ python run_test_suite.py
 After updating the README.md file, execute the following commands from your main project directory:
 
 ```powershell
-cd "C:\Users\Sindhushree T B\.gemini\antigravity\scratch\Manual_Test_Plan_Suite"
+cd "C:\Users\Admin\.gemini\antigravity\scratch\Manual_Test_Plan_Suite"
 
 git add README.md
 
